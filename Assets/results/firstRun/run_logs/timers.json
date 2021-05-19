@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1620402827",
+        "python_version": "3.7.10 (default, Feb 26 2021, 13:06:18) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\kim tae han\\anaconda3\\envs\\push_block\\Scripts\\mlagents-learn config/PushBlock.yaml --run-id=firstRun --train --force",
+        "mlagents_version": "0.26.0",
+        "mlagents_envs_version": "0.26.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.8.1+cpu",
+        "numpy_version": "1.20.2",
+        "end_time_seconds": "1620402828"
+    },
+    "total": 1.6694520999999998,
+    "count": 1,
+    "self": 0.0043114999999995796,
+    "children": {
+        "run_training.setup": {
+            "total": 0.13491049999999993,
+            "count": 1,
+            "self": 0.13491049999999993
+        },
+        "TrainerController.start_learning": {
+            "total": 1.5302301000000003,
+            "count": 1,
+            "self": 0.0003539000000001291,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 1.5298673999999999,
+                    "count": 1,
+                    "self": 1.5298673999999999
+                },
+                "trainer_threads": {
+                    "total": 1.000000000139778e-06,
+                    "count": 1,
+                    "self": 1.000000000139778e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 7.800000000113272e-06,
+                    "count": 1,
+                    "self": 7.800000000113272e-06
+                }
+            }
+        }
+    }
+}
